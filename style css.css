@@ -1,0 +1,38 @@
+body {
+    background-color: #3a007a; /* Roxo estrelado */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.card {
+    background-color: #4b0082; /* Um tom de roxo */
+    border-radius: 10px;
+    padding: 20px;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    color: white;
+    font-family: 'Arial', sans-serif;
+    position: relative;
+}
+
+.message {
+    font-size: 24px;
+    cursor: pointer;
+}
+
+.star {
+    color: gold;
+    font-size: 24px;
+    position: absolute;
+}
+
+.star:nth-child(even) {
+    color: #ff69b4; /* Pink */
+}
+
+.star:nth-child(odd) {
+    color: #00ffff; /* Aqua */
+}
